@@ -1,14 +1,10 @@
 use employees;
 
-
--- insert data into department table
 INSERT INTO department
     (name)
 VALUES
     ('Development'), ('Quality Assurance'), ('Human Resources'), ('Operations');
 
-
--- insert data into role table
 INSERT INTO role
     (title, salary, department_id)
 VALUES
@@ -18,7 +14,6 @@ VALUES
     ('Operations Lead', 140000, 4), ('Operations Engineer', 90000, 4);
 
 
--- insert data into employee table
 INSERT INTO employee
     (first_name, last_name, role_id, manager_id)
 VALUES
